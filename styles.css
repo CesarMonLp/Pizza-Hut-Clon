@@ -1,0 +1,48 @@
+body{
+    background-image: url(./Imag/fondo.avif);
+    font-family: 'Open sans', sans-serif;
+    margin: 0%;
+}
+
+/* Encabezado */
+
+.header{
+    text-align: center;
+    background-color: white;
+    box-shadow: 20px 0 6px rgba(126, 126, 126, 0.655);
+}
+
+.logoPizza{
+    padding: 15px;
+}
+
+.menu{
+    
+}
+
+ul{
+    display: block;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    display: inline;
+    border-right: 1px solid rgba(127, 127, 127, 0.2);
+    width: 110px;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.envioGratis{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(190,34,45);
+}
+
+hr{
+    box-shadow: 1px 1px 1px rgba(204, 204, 204, 0.3);
+    border: none;
+    height: 1px;
+    margin: 0;
+}
