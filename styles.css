@@ -1,7 +1,7 @@
 body{
     background-image: url(./Imag/fondo.avif);
     font-family: 'Open sans', sans-serif;
-    margin: 0%;
+    margin: 0;
 }
 
 /* Encabezado */
@@ -17,11 +17,7 @@ body{
 }
 
 .menu{
-    
-}
-
-ul{
-    display: block;
+    text-align: center;
 }
 
 li{
@@ -37,7 +33,8 @@ li{
 .envioGratis{
     text-align: center;
     font-weight: 900;
-    color: rgb(190,34,45);
+    color: rgb(192,34,45);
+    border-bottom: 4px solid rgb(192, 0, 0);
 }
 
 hr{
@@ -45,4 +42,10 @@ hr{
     border: none;
     height: 1px;
     margin: 0;
+}
+
+/* Carrito */
+
+.carritoLateral{
+    background-color: white;
 }
